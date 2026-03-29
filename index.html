@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>M+M Konstrukt – Innenausbau, Renovierung & Sanierung in Oberhausen</title>
+<meta name="description" content="M+M Konstrukt aus Oberhausen – Innenausbau, Renovierung, Malerarbeiten, Reparaturen und Sanierung. Jetzt kostenloses Angebot anfragen."/>
+<meta name="robots" content="index,follow"/>
+<meta property="og:title" content="M+M Konstrukt – Innenausbau & Renovierung in Oberhausen"/>
+<meta property="og:description" content="Moderne Lösungen für Innenausbau, Renovierung, Reparaturen und Malerarbeiten in Oberhausen und Umgebung."/>
+<meta property="og:type" content="website"/>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"M+M Konstrukt UG (haftungsbeschränkt)",
+  "telephone":"+49 177 2922 600",
+  "email":"info@m2konstrukt.de",
+  "address":{"@type":"PostalAddress","streetAddress":"Wilhelmstr. 18","postalCode":"46145","addressLocality":"Oberhausen","addressCountry":"DE"},
+  "areaServed":"Oberhausen und Umgebung"
+}
+</script>
+<style>
+:root{
+  --cream:#faf8f4;--warm-white:#fff9f4;--sand:#f0ebe2;--clay:#e8ddd0;
+  --terracotta:#c96b3a;--terra-dark:#a8512a;--terra-light:#f5ede5;--terra-xlight:#fdf7f3;
+  --charcoal:#2b2420;--ink:#3d3028;--muted:#7a6d64;--line:#e2d9cf;--gold:#d4a853;
+  --shadow-warm:0 8px 32px rgba(80,45,20,0.10);--shadow-card:0 4px 18px rgba(80,45,20,0.08);
+  --radius:20px;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--cream);color:var(--charcoal);line-height:1.55;}
+body *{font-family:Arial,Helvetica,sans-serif;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.container{width:min(1160px,calc(100% - 40px));margin:0 auto;}
+
+/* ── PHOTO PLACEHOLDER ── */
+.photo-placeholder{
+  background:linear-gradient(135deg,var(--sand) 0%,var(--clay) 100%);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:10px;border:2px dashed var(--terracotta);border-radius:inherit;
+  color:var(--terracotta);font-size:13px;font-weight:700;text-align:center;
+  padding:20px;
+}
+.photo-placeholder .ph-icon{font-size:32px;opacity:.6;}
+.photo-placeholder .ph-label{opacity:.8;line-height:1.4;}
+
+/* ── NAV ── */
+.topbar{position:sticky;top:0;z-index:1000;background:rgba(250,248,244,0.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--clay);}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:80px;}
+.brand{display:flex;align-items:center;gap:12px;}
+.brand-badge{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#fde8d8 0%,#f9c89a 40%,#e8f6f0 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;font-size:10px;text-align:center;color:#1a1a1a;flex:0 0 auto;letter-spacing:-.2px;line-height:1.15;border:1.5px solid rgba(201,107,58,0.18);}
+.brand-text strong{font-size:20px;letter-spacing:-.4px;color:var(--charcoal);}
+.brand-text span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;display:block;margin-top:2px;}
+.menu{display:flex;align-items:center;gap:28px;font-size:14px;font-weight:700;}
+.menu a{color:var(--ink);padding:6px 0;position:relative;transition:.2s;}
+.menu a:hover{color:var(--terracotta);}
+.cta-nav{background:var(--terracotta);color:#fff;padding:12px 18px;border-radius:12px;font-weight:700;font-size:14px;white-space:nowrap;transition:.2s;}
+.cta-nav:hover{background:var(--terra-dark);}
+
+/* ── HERO ── */
+.hero{padding:28px 0 64px;}
+.hero-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:40px;align-items:center;}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--terracotta);font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:1.8px;margin-bottom:16px;}
+.eyebrow::before{content:'';width:24px;height:2px;background:var(--terracotta);border-radius:2px;}
+h1{font-size:clamp(32px,4.5vw,56px);line-height:1.04;letter-spacing:-1.5px;color:var(--charcoal);margin-bottom:18px;}
+h1 em{color:var(--terracotta);font-style:normal;}
+.lead{font-size:17px;color:var(--muted);max-width:520px;margin-bottom:28px;line-height:1.65;}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:32px;}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:12px;font-weight:700;font-size:15px;transition:.2s;border:2px solid transparent;cursor:pointer;}
+.btn-primary{background:var(--terracotta);color:#fff;}
+.btn-primary:hover{background:var(--terra-dark);transform:translateY(-1px);}
+.btn-secondary{background:#fff;color:var(--charcoal);border-color:var(--clay);}
+.btn-secondary:hover{border-color:var(--terracotta);color:var(--terracotta);}
+.trust-strip{display:flex;gap:12px;flex-wrap:wrap;}
+.trust-chip{background:#fff;border:1px solid var(--clay);border-radius:10px;padding:10px 14px;font-size:13px;font-weight:700;color:var(--ink);display:flex;align-items:center;gap:7px;}
+.hero-media{position:relative;}
+.hero-media .photo-placeholder{height:560px;border-radius:28px;}
+.hero-badge{position:absolute;left:18px;bottom:18px;background:rgba(250,248,244,0.95);border-radius:16px;padding:16px 18px;box-shadow:var(--shadow-warm);max-width:230px;border:1px solid var(--clay);}
+.hero-badge strong{font-size:15px;color:var(--charcoal);display:block;margin-bottom:4px;}
+.hero-badge span{font-size:13px;color:var(--muted);}
+.stars{color:var(--gold);font-size:14px;margin-bottom:4px;}
+
+/* ── SECTIONS ── */
+section{padding:80px 0;}
+.section-head{max-width:680px;margin:0 auto 48px;text-align:center;}
+h2{font-size:clamp(26px,3.5vw,42px);letter-spacing:-.8px;color:var(--charcoal);margin-bottom:14px;}
+.section-head p{color:var(--muted);font-size:17px;line-height:1.65;}
+.bg-sand{background:var(--sand);}
+.bg-warm{background:var(--warm-white);}
+
+/* ── ABOUT ── */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;}
+.about-text p{color:var(--muted);font-size:17px;line-height:1.7;margin-bottom:16px;}
+.checklist{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px;}
+.check-item{background:#fff;border:1px solid var(--clay);border-radius:12px;padding:12px 14px;font-weight:700;font-size:14px;display:flex;align-items:center;gap:8px;color:var(--charcoal);}
+.check-item::before{content:'✓';color:var(--terracotta);font-weight:900;}
+.about-media{position:relative;}
+.about-media .photo-placeholder{height:500px;border-radius:28px;}
+.about-stat{position:absolute;right:-18px;top:40px;background:#fff;border:1px solid var(--clay);border-radius:16px;padding:18px 22px;box-shadow:var(--shadow-warm);text-align:center;}
+.about-stat strong{font-size:32px;color:var(--terracotta);display:block;line-height:1;}
+.about-stat span{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;display:block;margin-top:4px;}
+
+/* ── BENEFITS ── */
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:48px;}
+.benefit-card{background:#fff;border:1px solid var(--clay);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-card);}
+.icon-wrap{width:56px;height:56px;border-radius:14px;background:var(--terra-xlight);display:grid;place-items:center;margin-bottom:16px;}
+.icon-wrap svg{width:24px;height:24px;stroke:var(--terracotta);fill:none;stroke-width:2;}
+.benefit-card h3{font-size:20px;color:var(--charcoal);margin-bottom:8px;}
+.benefit-card p{color:var(--muted);font-size:15px;line-height:1.65;}
+
+/* ── SERVICES ── */
+.services-wrap{display:flex;flex-direction:column;gap:24px;}
+.service{display:grid;grid-template-columns:1fr 1fr;gap:0;background:#fff;border-radius:24px;overflow:hidden;box-shadow:var(--shadow-card);border:1px solid var(--clay);}
+.service:nth-child(even) .service-copy{order:2;}
+.service:nth-child(even) .service-media{order:1;}
+.service-copy{padding:36px;}
+.service-copy h3{font-size:clamp(20px,2.5vw,30px);color:var(--charcoal);letter-spacing:-.5px;margin-bottom:10px;}
+.service-copy p{color:var(--muted);font-size:16px;line-height:1.65;margin-bottom:18px;}
+.service-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px;}
+.tag{background:var(--terra-xlight);color:var(--terracotta);font-weight:700;font-size:13px;padding:6px 12px;border-radius:8px;border:1px solid var(--terra-light);}
+.service-media .photo-placeholder{height:100%;min-height:300px;border-radius:0;}
+
+/* ── TESTIMONIALS ── */
+.quotes-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+.quote{background:#fff;border:1px solid var(--clay);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-card);}
+.quote-mark{font-size:48px;color:var(--terracotta);line-height:.9;margin-bottom:10px;font-family:Georgia,serif;}
+.quote p{color:var(--charcoal);font-size:16px;line-height:1.65;margin-bottom:14px;}
+.quote-author{display:flex;align-items:center;gap:10px;}
+.author-dot{width:36px;height:36px;border-radius:50%;background:var(--terra-xlight);border:2px solid var(--terra-light);display:grid;place-items:center;font-weight:800;font-size:12px;color:var(--terracotta);}
+.quote strong{font-size:14px;color:var(--charcoal);}
+.quote em{font-size:13px;color:var(--muted);font-style:normal;display:block;}
+
+/* ── REFERENZEN TEASER ── */
+.ref-teaser{background:var(--terracotta);border-radius:24px;padding:48px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+.ref-teaser h3{font-size:28px;color:#fff;letter-spacing:-.5px;margin-bottom:8px;}
+.ref-teaser p{color:rgba(255,255,255,.8);font-size:16px;}
+.btn-white{background:#fff;color:var(--terracotta);border:none;}
+.btn-white:hover{background:var(--terra-xlight);}
+
+/* ── CONTACT ── */
+.contact-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:24px;}
+.contact-card{background:#fff;border:1px solid var(--clay);border-radius:24px;padding:32px;box-shadow:var(--shadow-card);}
+.contact-card h3{font-size:22px;color:var(--charcoal);margin-bottom:8px;}
+.contact-card>p{color:var(--muted);font-size:15px;margin-bottom:24px;}
+.contact-list{list-style:none;display:flex;flex-direction:column;gap:14px;}
+.contact-list li{display:flex;align-items:flex-start;gap:12px;}
+.contact-icon{width:38px;height:38px;border-radius:10px;background:var(--terra-xlight);display:grid;place-items:center;font-size:16px;flex:0 0 auto;}
+.contact-list strong{font-size:12px;color:var(--terracotta);text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:2px;}
+.contact-list a,.contact-list span{color:var(--charcoal);font-size:15px;}
+.form-group{display:flex;flex-direction:column;gap:12px;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+input,textarea{width:100%;border:1.5px solid var(--clay);border-radius:12px;padding:14px 16px;font-family:inherit;font-size:15px;background:#fff;color:var(--charcoal);transition:.2s;outline:none;}
+input:focus,textarea:focus{border-color:var(--terracotta);}
+textarea{min-height:130px;resize:vertical;}
+.btn-submit{width:100%;justify-content:center;font-size:16px;padding:16px;}
+
+/* ── FOOTER ── */
+footer{background:var(--charcoal);color:#fff;padding:64px 0 24px;margin-top:80px;}
+.footer-top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;margin-bottom:40px;}
+.footer-brand-badge{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#fde8d8 0%,#f9c89a 40%,#e8f6f0 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;font-size:9px;text-align:center;color:#1a1a1a;flex:0 0 auto;line-height:1.2;border:1.5px solid rgba(201,107,58,0.18);}
+.footer-brand strong{font-size:20px;color:#fff;}
+.footer-brand span{font-size:11px;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:1.5px;}
+.footer-desc{color:rgba(255,255,255,.55);font-size:14px;line-height:1.7;margin-top:14px;max-width:280px;}
+.footer-col h4{font-size:12px;text-transform:uppercase;letter-spacing:1.4px;color:rgba(255,255,255,.45);margin-bottom:16px;}
+.footer-col{display:flex;flex-direction:column;gap:10px;}
+.footer-col a{color:rgba(255,255,255,.75);font-size:15px;transition:.2s;}
+.footer-col a:hover{color:#fff;}
+.footer-col span{color:rgba(255,255,255,.6);font-size:14px;}
+.footer-divider{border:none;border-top:1px solid rgba(255,255,255,.1);margin:0 0 20px;}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:13px;color:rgba(255,255,255,.4);}
+.footer-legal{display:flex;gap:16px;}
+.footer-legal a{color:rgba(255,255,255,.5);font-size:13px;transition:.2s;}
+.footer-legal a:hover{color:#fff;}
+
+/* ── WA FLOAT ── */
+.whatsapp-float{position:fixed;right:20px;bottom:20px;z-index:1200;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:#25D366;color:#fff;box-shadow:0 8px 24px rgba(0,0,0,.22);font-size:24px;transition:.2s;}
+.whatsapp-float:hover{transform:translateY(-2px);}
+
+/* ── RESPONSIVE ── */
+@media(max-width:960px){
+  .menu{display:none;}
+  .cta-nav{display:none;}
+  .hero-grid,.about-grid,.contact-grid,.footer-top{grid-template-columns:1fr;}
+  .service{grid-template-columns:1fr;}
+  .service:nth-child(even) .service-copy,.service:nth-child(even) .service-media{order:unset;}
+  .benefits,.quotes-grid,.checklist{grid-template-columns:1fr;}
+  .about-stat{position:static;margin-top:16px;}
+  .form-row{grid-template-columns:1fr;}
+  .ref-teaser{text-align:center;justify-content:center;}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+<div class="container nav">
+  <a href="#start" class="brand">
+    <img src="logo.png" alt="M+M Konstrukt Logo" style="height:54px;width:auto;display:block;">
+  </a>
+  <nav class="menu">
+    <a href="#start">Start</a>
+    <a href="#ueber-uns">Über uns</a>
+    <a href="#leistungen">Leistungen</a>
+    <a href="referenzen.html">Referenzen</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="cta-nav" href="tel:+491772922600">📞 +49 177 2922 600</a>
+</div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="start">
+<div class="container hero-grid">
+  <div class="hero-copy">
+    <div class="eyebrow">M+M Konstrukt · Oberhausen</div>
+    <h1>Handwerk mit <em>Herz</em> – für Ihr Zuhause &amp; Gewerbe.</h1>
+    <p class="lead">Innenausbau, Renovierung und Sanierung aus einer Hand – sauber ausgeführt, persönlich betreut und termingerecht abgeliefert.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#kontakt">Kostenloses Angebot anfragen</a>
+      <a class="btn btn-secondary" href="#leistungen">Unsere Leistungen</a>
+    </div>
+    <div class="trust-strip">
+      <div class="trust-chip">🛡️ Zuverlässig &amp; pünktlich</div>
+      <div class="trust-chip">🏠 Privat &amp; gewerblich</div>
+      <div class="trust-chip">📍 Oberhausen &amp; NRW</div>
+    </div>
+  </div>
+  <div class="hero-media">
+    <!-- 📸 FOTO ERSETZEN: Hauptbild Hero (empfohlen: 1200×1120px, Hochformat) -->
+    <!-- Zeigt: Fertiggestelltes Projekt, z.B. renoviertes Badezimmer oder schöner Innenausbau -->
+    <div class="photo-placeholder" style="height:560px;border-radius:28px;">
+      <div class="ph-icon">📸</div>
+      <div class="ph-label"><strong>HERO-FOTO</strong><br>Ihr bestes Referenzprojekt<br>Empfohlen: 1200 × 1120 px</div>
+    </div>
+    <div class="hero-badge">
+      <div class="stars">★★★★★</div>
+      <strong>Top-Bewertungen</strong>
+      <span>Unsere Kunden empfehlen uns weiter.</span>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ÜBER UNS -->
+<section id="ueber-uns" class="bg-sand">
+<div class="container">
+  <div class="section-head">
+    <div class="eyebrow">Über uns</div>
+    <h2>Ihr verlässlicher Partner in Oberhausen</h2>
+    <p>Wir setzen auf saubere Ausführung, persönliche Betreuung und Ergebnisse, die wirklich überzeugen.</p>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>Als etablierte Innenausbaufirma aus Oberhausen betrachten wir es als unsere Mission, Räume optisch und funktional aufzuwerten. Ob Renovierung, Instandhaltung oder kompletter Innenausbau – wir sind Ihr Ansprechpartner.</p>
+      <p>Kurze Wege, direkte Kommunikation und ein Team das weiß, was es tut – das macht den Unterschied zu großen, anonymen Betrieben.</p>
+      <div class="checklist">
+        <div class="check-item">Innenausbau</div>
+        <div class="check-item">Renovierung</div>
+        <div class="check-item">Fliesenarbeiten</div>
+        <div class="check-item">Reparaturen</div>
+        <div class="check-item">Malerarbeiten</div>
+        <div class="check-item">Wartung</div>
+      </div>
+    </div>
+    <div class="about-media">
+      <!-- 📸 FOTO ERSETZEN: Team-Foto oder Werkzeug/Handwerk-Foto (empfohlen: 1000×1000px) -->
+      <div class="photo-placeholder" style="height:500px;border-radius:28px;">
+        <div class="ph-icon">📸</div>
+        <div class="ph-label"><strong>TEAM-FOTO</strong><br>Ihr Team oder Arbeitsszene<br>Empfohlen: 1000 × 1000 px</div>
+      </div>
+      <div class="about-stat">
+        <strong>100%</strong>
+        <span>Zufriedenheit</span>
+      </div>
+    </div>
+  </div>
+  <div class="benefits">
+    <div class="benefit-card">
+      <div class="icon-wrap"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+      <h3>Erfahrenes Team</h3>
+      <p>Fachkundige Handwerker für Trockenbau, Innenausbau und Renovierung – sauber und professionell.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="icon-wrap"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3.09 5.18 2 2 0 0 1 5.06 3h3a2 2 0 0 1 2 1.72 12 12 0 0 0 .6 2.5 2 2 0 0 1-.45 2.11L9.1 10.9a16 16 0 0 0 4 4l1.57-1.11a2 2 0 0 1 2.11-.45 12 12 0 0 0 2.5.6A2 2 0 0 1 22 16.92z"/></svg></div>
+      <h3>Direkte Kommunikation</h3>
+      <p>Kurze Wege, schnelle Rückmeldungen – kein Callcenter, sondern echte Ansprechpartner.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="icon-wrap"><svg viewBox="0 0 24 24"><path d="M12 2l3 6 7 .9-5 4.8 1.3 7.3L12 17l-6.3 4 1.3-7.3-5-4.8L9 8z"/></svg></div>
+      <h3>Hohe Qualität</h3>
+      <p>Präzise Ausführung, Termintreue und ein Ergebnis, das Sie sich gerne jeden Tag ansehen.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- LEISTUNGEN -->
+<section id="leistungen" class="bg-warm">
+<div class="container">
+  <div class="section-head">
+    <div class="eyebrow">Unsere Leistungen</div>
+    <h2>Alles aus einer Hand</h2>
+    <p>Von Fliesenarbeiten über Renovierung bis zu Malerarbeiten – sauber, verlässlich und zu fairen Preisen.</p>
+  </div>
+  <div class="services-wrap">
+
+    <div class="service">
+      <div class="service-copy">
+        <h3>Fliesenarbeiten</h3>
+        <p>Wir verlegen Wand- und Bodenfliesen präzise und langlebig – egal ob Bad, Küche oder Wohnraum. Sauber verfugt, termingerecht fertig.</p>
+        <div class="service-tags">
+          <span class="tag">Badezimmer</span><span class="tag">Küchen</span>
+          <span class="tag">Wohnräume</span><span class="tag">Saubere Fugen</span>
+        </div>
+        <a class="btn btn-primary" href="#kontakt">Angebot anfragen</a>
+      </div>
+      <div class="service-media">
+        <!-- 📸 FOTO: Fliesenarbeiten – Bad oder Küche (empfohlen: 900×600px) -->
+        <div class="photo-placeholder" style="height:100%;min-height:300px;border-radius:0;">
+          <div class="ph-icon">📸</div>
+          <div class="ph-label"><strong>FLIESENARBEITEN</strong><br>Bad, Küche oder Wohnraum<br>900 × 600 px</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-copy">
+        <h3>Innenausbau</h3>
+        <p>Wohn- und Geschäftsräume modern und funktional gestalten – mit hochwertigen Materialien und durchdachten Lösungen.</p>
+        <div class="service-tags">
+          <span class="tag">Wohnräume</span><span class="tag">Gewerbeflächen</span>
+          <span class="tag">Modernisierung</span><span class="tag">Individuelle Lösungen</span>
+        </div>
+        <a class="btn btn-primary" href="#kontakt">Angebot anfragen</a>
+      </div>
+      <div class="service-media">
+        <!-- 📸 FOTO: Innenausbau – moderner Raum oder Gewerbebereich (900×600px) -->
+        <div class="photo-placeholder" style="height:100%;min-height:300px;border-radius:0;">
+          <div class="ph-icon">📸</div>
+          <div class="ph-label"><strong>INNENAUSBAU</strong><br>Wohn- oder Gewerberaum<br>900 × 600 px</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-copy">
+        <h3>Renovierung</h3>
+        <p>Von einzelnen Räumen bis zum gesamten Objekt – sichtbare und nachhaltige Aufwertung Ihrer Immobilie.</p>
+        <div class="service-tags">
+          <span class="tag">Wohnungsrenovierung</span><span class="tag">Raumaufwertung</span>
+          <span class="tag">Altbaupflege</span><span class="tag">Saubere Umsetzung</span>
+        </div>
+        <a class="btn btn-primary" href="#kontakt">Angebot anfragen</a>
+      </div>
+      <div class="service-media">
+        <!-- 📸 FOTO: Renovierung – Vorher/Nachher oder laufende Arbeit (900×600px) -->
+        <div class="photo-placeholder" style="height:100%;min-height:300px;border-radius:0;">
+          <div class="ph-icon">📸</div>
+          <div class="ph-label"><strong>RENOVIERUNG</strong><br>Vorher/Nachher oder Arbeitsszene<br>900 × 600 px</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-copy">
+        <h3>Malerarbeiten</h3>
+        <p>Saubere Malerarbeiten für frischen Glanz – hochwertige Oberflächen, scharfe Kanten, optische Aufwertung.</p>
+        <div class="service-tags">
+          <span class="tag">Innenanstriche</span><span class="tag">Saubere Kanten</span>
+          <span class="tag">Hochwertige Farben</span><span class="tag">Aufwertung</span>
+        </div>
+        <a class="btn btn-primary" href="#kontakt">Angebot anfragen</a>
+      </div>
+      <div class="service-media">
+        <!-- 📸 FOTO: Malerarbeiten – frisch gestrichener Raum (900×600px) -->
+        <div class="photo-placeholder" style="height:100%;min-height:300px;border-radius:0;">
+          <div class="ph-icon">📸</div>
+          <div class="ph-label"><strong>MALERARBEITEN</strong><br>Frisch gestrichener Raum<br>900 × 600 px</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-copy">
+        <h3>Reparaturen &amp; Wartung</h3>
+        <p>Schnelle Hilfe bei Schäden, regelmäßige Instandhaltung und langfristiger Werterhalt für Ihre Immobilie.</p>
+        <div class="service-tags">
+          <span class="tag">Schadstellen</span><span class="tag">Regelmäßige Pflege</span>
+          <span class="tag">Gewerbe &amp; Privat</span><span class="tag">Werterhalt</span>
+        </div>
+        <a class="btn btn-primary" href="#kontakt">Angebot anfragen</a>
+      </div>
+      <div class="service-media">
+        <!-- 📸 FOTO: Reparatur oder Wartung – Handwerker bei der Arbeit (900×600px) -->
+        <div class="photo-placeholder" style="height:100%;min-height:300px;border-radius:0;">
+          <div class="ph-icon">📸</div>
+          <div class="ph-label"><strong>REPARATUREN</strong><br>Handwerker bei der Arbeit<br>900 × 600 px</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<!-- REFERENZEN TEASER -->
+<section class="bg-sand">
+<div class="container">
+  <div class="ref-teaser">
+    <div>
+      <h3>Unsere abgeschlossenen Projekte</h3>
+      <p>Sehen Sie selbst – Vorher/Nachher-Bilder und echte Kundenprojekte aus Oberhausen und NRW.</p>
+    </div>
+    <a class="btn btn-white" href="referenzen.html">Alle Referenzen ansehen →</a>
+  </div>
+</div>
+</section>
+
+<!-- KUNDENSTIMMEN -->
+<section class="bg-warm">
+<div class="container">
+  <div class="section-head">
+    <div class="eyebrow">Kundenstimmen</div>
+    <h2>Was unsere Kunden sagen</h2>
+    <p>Zufriedene Kunden sind unser bester Beweis.</p>
+  </div>
+  <div class="quotes-grid">
+    <div class="quote">
+      <div class="quote-mark">"</div>
+      <p>M+M Konstrukt hat unsere Wohnung komplett renoviert. Sauber, pünktlich und sehr professionell – wir sind rundum zufrieden.</p>
+      <div class="quote-author">
+        <div class="author-dot">TM</div>
+        <div><strong>Thomas M.</strong><em>Oberhausen · ★★★★★</em></div>
+      </div>
+    </div>
+    <div class="quote">
+      <div class="quote-mark">"</div>
+      <p>Von der ersten Anfrage bis zur Fertigstellung lief alles unkompliziert. Besonders beeindruckt hat mich die saubere Ausführung.</p>
+      <div class="quote-author">
+        <div class="author-dot">SK</div>
+        <div><strong>Sandra K.</strong><em>NRW · ★★★★★</em></div>
+      </div>
+    </div>
+    <div class="quote">
+      <div class="quote-mark">"</div>
+      <p>Sehr zuverlässige Arbeit, top Kommunikation und ein Ergebnis, das uns jeden Tag freut. Klare Empfehlung!</p>
+      <div class="quote-author">
+        <div class="author-dot">MH</div>
+        <div><strong>Markus H.</strong><em>Google-Bewertung · ★★★★★</em></div>
+      </div>
+    </div>
+    <div class="quote">
+      <div class="quote-mark">"</div>
+      <p>Termine wurden eingehalten, das Ergebnis war top und der Preis war fair. So muss Handwerk heute sein.</p>
+      <div class="quote-author">
+        <div class="author-dot">LB</div>
+        <div><strong>Laura B.</strong><em>Google-Bewertung · ★★★★★</em></div>
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:32px;">
+    <a class="btn btn-primary" href="https://www.google.com/search?q=M%2BM+Konstrukt+Oberhausen" target="_blank">Alle Google-Bewertungen ansehen</a>
+  </div>
+</div>
+</section>
+
+<!-- KONTAKT -->
+<section id="kontakt" class="bg-sand">
+<div class="container">
+  <div class="section-head">
+    <div class="eyebrow">Kontakt</div>
+    <h2>Jetzt kostenloses Angebot anfragen</h2>
+    <p>Schreiben Sie uns oder rufen Sie direkt an – wir melden uns schnell und unkompliziert.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3>So erreichen Sie uns</h3>
+      <p>Direkter Kontakt, kurze Wege – wir sind für Sie da.</p>
+      <ul class="contact-list">
+        <li><div class="contact-icon">📞</div><div><strong>Telefon</strong><a href="tel:+491772922600">+49 177 2922 600</a></div></li>
+        <li><div class="contact-icon">✉️</div><div><strong>E-Mail</strong><a href="/cdn-cgi/l/email-protection#95fcfbf3fad5f8a7fefafbe6e1e7e0fee1bbf1f0"><span class="__cf_email__" data-cfemail="5b32353d341b3669303435282f292e302f753f3e">[email&#160;protected]</span></a></div></li>
+        <li><div class="contact-icon">📍</div><div><strong>Adresse</strong><span>Wilhelmstr. 18, 46145 Oberhausen</span></div></li>
+        <li><div class="contact-icon">🕐</div><div><strong>Öffnungszeiten</strong><span>Mo–Fr: 08–18 Uhr · Sa: 08–14 Uhr</span></div></li>
+        <li><div class="contact-icon">💬</div><div><strong>WhatsApp</strong><a href="https://wa.me/491772922600" target="_blank">Jetzt direkt schreiben</a></div></li>
+      </ul>
+    </div>
+    <div class="contact-card">
+      <h3>Anfrage senden</h3>
+      <p>Wir antworten in der Regel innerhalb von 24 Stunden.</p>
+      <form onsubmit="return false;" style="margin-top:16px;">
+        <div class="form-group">
+          <div class="form-row">
+            <input type="text" placeholder="Ihr Name"/>
+            <input type="tel" placeholder="Telefonnummer"/>
+          </div>
+          <input type="email" placeholder="E-Mail-Adresse"/>
+          <input type="text" placeholder="Betreff (z.B. Fliesenarbeiten Bad)"/>
+          <textarea placeholder="Ihre Nachricht – was darf es sein?"></textarea>
+          <button type="button" class="btn btn-primary btn-submit">Anfrage senden →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="container">
+  <div class="footer-top">
+    <div>
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+        <img src="logo.png" alt="M+M Konstrukt Logo" style="height:48px;width:auto;display:block;">
+      </div>
+      <p class="footer-desc">Ihr persönlicher Handwerkspartner aus Oberhausen – für private und gewerbliche Objekte in ganz NRW.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <a href="#start">Start</a>
+      <a href="#ueber-uns">Über uns</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="referenzen.html">Referenzen</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kontakt</h4>
+      <span>📞 +49 177 2922 600</span>
+      <span>✉️ <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c0a9aea6af80adf2abafaeb3b4b2b5abb4eea4a5">[email&#160;protected]</a></span>
+      <span>📍 Wilhelmstr. 18, 46145 Oberhausen</span>
+      <span>Mo–Fr: 08–18 Uhr · Sa: 08–14 Uhr</span>
+    </div>
+  </div>
+  <hr class="footer-divider"/>
+  <div class="footer-bottom">
+    <span>© 2025 M+M Konstrukt UG (haftungsbeschränkt) · Oberhausen</span>
+    <div class="footer-legal"
